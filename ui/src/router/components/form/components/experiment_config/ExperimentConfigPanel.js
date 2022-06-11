@@ -24,6 +24,9 @@ const CustomExperimentEngineConfigGroup = ({
   onChangeHandler,
   errors,
 }) => {
+  console.log("@CustomExperimentEngineConfigGroup");
+  console.log(remoteUi);
+  console.log(config);
   // Load component from remote host
   return (
     <React.Suspense

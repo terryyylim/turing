@@ -32,6 +32,8 @@ const FallbackView = ({ text }) => (
 
 const RemoteRouter = ({ projectId }) => {
   const { defaultExperimentEngine } = useConfig();
+  console.log("@RemoteRouter");
+  console.log(defaultExperimentEngine);
 
   // Load component from remote host
   return (

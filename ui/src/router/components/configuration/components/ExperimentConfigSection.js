@@ -25,6 +25,9 @@ const FallbackView = ({ text }) => (
 );
 
 const CustomExperimentConfigView = ({ projectId, remoteUi, config }) => {
+  console.log("@CustomExperimentConfigView");
+  console.log(remoteUi);
+  console.log(config);
   // Load component from remote host
   return (
     <React.Suspense
